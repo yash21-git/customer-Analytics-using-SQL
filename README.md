@@ -4,6 +4,9 @@ A data-driven SQL project simulating an e-commerce platform to uncover key custo
 # Project Overview: 
 A self-initiated data analytics project that simulates an e-commerce order system and uses SQL to derive actionable customer insights. It demonstrates how SQL can be used to analyze customer behavior, product performance, and churn patterns using a structured relational schema. The dataset simulates an e-commerce platform’s data.
 
+# Objective : To understand key patterns in customer behavior—such as churn, repeat purchases, product return tendencies, and customer value—using advanced SQL queries and visual analytics. The project aims to identify actionable insights that can guide customer engagement, product improvement, and retention strategies.
+
+
 # Dataset
 Source: public e-commerce dataset taken from kaggel
 File: https://www.kaggle.com/datasets/shriyashjagtap/e-commerce-customer-for-behavior-analysis?resource=download
@@ -22,19 +25,14 @@ Return Rate by Product
 Churn Rate by Gender
 Cohort Retention by Month
 
-# Key Insights & Findings
-Using advanced SQL queries across the cleaned_ecommerce_data.csv dataset, the following business insights were uncovered:
-1. Average Order Value (AOV): The typical customer spends ₹1,245 per order, with higher AOV observed among returning customers.
+# Conclusion Summary:
 
-2. Return Rate by Product Category: Apparel and electronics categories showed the highest return rates, with over 18% of orders returned—indicating potential sizing or quality concerns.
+1.Churn Risk: 24.6% of customers stopped purchasing, with churn higher among one-time buyers and male customers.
 
-3. Churn Trends:
-a) Overall churn rate: 24.6%
-b) Churn was 15% higher among one-time buyers compared to repeat purchasers.
-c) Female customers had slightly lower churn rates than males (22% vs. 26%).
+2.Retention Drop-off: Only 41% of users are retained after the first month, dropping to 18% by Month 3.
 
-4. Purchase Frequency: Repeat customers made a purchase every 32.5 days on average, suggesting monthly campaigns may help retain active buyers.
+3.Product Returns: Apparel and electronics have return rates exceeding 18%, indicating issues in sizing/quality.
 
-5. Customer Lifetime Value (CLV): High-value customers (top 20%) accounted for over 60% of total revenue, highlighting the importance of loyalty retention strategies.
+4.Revenue Concentration: Top 20% of customers contributed 60%+ of total revenue—underscoring the value of loyalty campaigns.
 
-6. Cohort Retention:Retention after Month 1 was 41%, but dropped to 18% by Month 3, indicating a need for post-purchase engagement to boost loyalty.
+5.Strategic Outcome: The company should prioritize retention, reduce returns, and target high-value customers through data-driven engagement.
